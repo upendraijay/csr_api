@@ -1,0 +1,12 @@
+Make sure to update your source control settings to prevent accidentally committing your virtual environment (in for example .gitignore). Since virtual environments are not portable, it typically does not make sense to commit them for others to use.
+
+it is noting to do with different machine. it is only usefull when you are working different projects on same computer.
+
+Global environments
+For example, if you just run python, python3 at a new terminal (depending on how you installed Python), you're running in that interpreter's global environment. Any packages that you install or uninstall affect the global environment and all programs that you run within it.
+
+Tip: In Python, it is best practice to create a workspace-specific environment, for example, by using a local environment.
+
+Local environments
+There are two types of environments that you can create for your workspace: virtual and conda. These environments allow you to install packages without affecting other environments, isolating your workspace's package installations.
+
